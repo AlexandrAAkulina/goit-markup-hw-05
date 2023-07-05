@@ -845,11 +845,47 @@ padding: 0;
 
 .modal-form-input {
     width: 100%;
-        height: 58px;
-        padding: 11px 38px;
-        font-size: 18px;
-        
-        
-        border-radius: 4px;
-        border: 1px solid rgba(46, 47, 66, 0.40);
+    height: 58px;
+    padding: 11px 38px;
+    font-size: 18px;
+    border-radius: 4px;
+    border: 1px solid rgba(46, 47, 66, 0.40);
 }
+
+
+
+.modal-form-icon {
+    position: absolute;
+    left: 16px;
+    bottom: 22px;
+    fill: var(--navy-blue-color);  
+    
+}
+
+
+.modal-form-input:focus + .modal-form-icon {
+    fill: var(--primary-brand-color);
+
+}
+
+.textarea {
+    width: 100%;
+    height: 120px;
+    border-radius: 4px;
+    border: 1px solid rgba(46, 47, 66, 0.40);
+    
+}
+
+.textarea::placeholder {
+    padding-top: 8px;
+    padding-left: 16px;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.48px;
+    color: rgba(46, 47, 66, 0.40);
+        
+}
+
+
+
+
