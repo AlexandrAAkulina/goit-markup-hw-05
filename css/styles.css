@@ -896,6 +896,7 @@ padding: 0;
 }
 
 .agreement-container {
+    display: flex;
     margin-bottom: 24px;
 }
 
@@ -912,7 +913,7 @@ padding: 0;
 }
 
 .modal-form-agreement {
-    display: inline-flex;
+    /*display: flex;*/
     align-items: center;
     gap: 8px;
     font-size: 12px;
