@@ -913,7 +913,7 @@ padding: 0;
 }
 
 .modal-form-agreement {
-    display: inline-flex;
+    
     align-items: center;
     gap: 8px;
     font-size: 12px;
@@ -926,6 +926,7 @@ padding: 0;
 
 .modal-form-custom-checkbox {
     display: inline-flex;
+    margin-right: 8px;
     align-items: center;
     justify-content: center;
     fill: transparent;
