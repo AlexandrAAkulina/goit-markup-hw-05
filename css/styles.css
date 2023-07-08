@@ -486,7 +486,7 @@ a {
     color: var(--white-background-color);
     font-weight: 500;
     line-height: 24px;
-    letter-spacing: 0.32em;
+    letter-spacing: 0.03em;
     margin-bottom: 16px;
 }
 
@@ -529,13 +529,7 @@ position: relative;
 padding: 0;
    
 }
-/*.form-label {
-    
-    display: flex;
-    flex-direction: column;
-    
-    
-}*/
+
 
 .text {
    
@@ -554,7 +548,6 @@ padding: 0;
     width: 264px;
     height: 40px;
     padding-left: 16px;
-    margin-right: 24px;
     color: var(--white-background-color);
     font-size: 12px;
     line-height: 1.5;
@@ -569,9 +562,6 @@ padding: 0;
 
 .form-btn {
     display: flex;
-    position: absolute;
-    bottom: 0;
-    right: 0;
     min-width: 165px;
     height: 40px;
     padding: 8px 24px;
